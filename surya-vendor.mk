@@ -217,8 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_mp.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/osc_rtp_24K_5s.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/tas256x_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas256x_reg.bin \
-    vendor/xiaomi/surya/proprietary/vendor/lib/rfsa/adsp/tas25xx_TI_0.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas25xx_TI_0.bin \
-    vendor/xiaomi/surya/proprietary/vendor/lib/rfsa/adsp/tas25xx_TI_1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas25xx_TI_1.bin \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_aac_gc02m1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_aac_gc02m1b_depth.bin \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_aac_hi1337_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_aac_hi1337_ultra.bin \
     vendor/xiaomi/surya/proprietary/vendor/lib64/camera/com.qti.sensormodule.j20c_aac_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.j20c_aac_hi259_macro.bin \
@@ -310,7 +308,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libmdmdetect \
-    libmmosal_vendor \
+    libmmosal \
     libqmi \
     libqmi_cci \
     libqmi_client_helper \
@@ -565,7 +563,7 @@ PRODUCT_PACKAGES += \
     libmibokeh_712 \
     libminkdescriptor \
     libminksocket \
-    libmpbase_vendor \
+    libmpbase \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
@@ -743,7 +741,9 @@ PRODUCT_PACKAGES += \
     libsnpe_dsp_v66_domains_v2_skel \
     libsns_device_mode_skel \
     libsns_low_lat_stream_skel \
-    com.qualcomm.qti.dpm.api@1.0_system_ext \
+    tas25xx_TI_0 \
+    tas25xx_TI_1 \
+    com.qualcomm.qti.dpm.api@1.0 \
     fm_helium \
     lib-imsvideocodec \
     lib-imsvt \
@@ -758,8 +758,8 @@ PRODUCT_PACKAGES += \
     libimscamera_jni \
     libimsmedia_jni \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.fm@1.0_system_ext \
-    vendor.qti.imsrtpservice@3.0_system_ext \
+    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.imsrtpservice@3.0 \
     CACertService \
     CneApp \
     IWlanService \
