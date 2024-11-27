@@ -1214,7 +1214,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libMpeg4SwEncoder.so"],
 		},
 	},
@@ -1265,7 +1265,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxAlacDecSw.so"],
 		},
 	},
@@ -1333,7 +1333,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxApeDecSw.so"],
 		},
 	},
@@ -1401,7 +1401,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxSwVdec.so"],
 		},
 	},
@@ -1418,7 +1418,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxSwVencMpeg4.so"],
 		},
 	},
@@ -1622,7 +1622,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libpn553_fw.so"],
 		},
 	},
@@ -1690,7 +1690,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libswvdec.so"],
 		},
 	},
@@ -1713,24 +1713,6 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "32",
 	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmisoundfx",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libmisoundfx.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
 	prefer: true,
 	soc_specific: true,
 }
@@ -8656,7 +8638,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.3-service.widevine",
+	name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
 	filename_from_src: true,
@@ -8665,7 +8647,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@4.0-service",
+	name: "vendor.qti.gnss@4.0-service.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	filename_from_src: true,
