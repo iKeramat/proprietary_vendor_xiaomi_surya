@@ -295,6 +295,7 @@ PRODUCT_PACKAGES += \
     libbatterylistener \
     libc2d30_bltlib \
     libcdsp_default_listener \
+    libcdsprpc \
     libcirrusspkrprot \
     libcomprcapture \
     libdiag \
@@ -324,6 +325,7 @@ PRODUCT_PACKAGES += \
     libvpphvx \
     libvpplibrary \
     libasphere \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
@@ -515,7 +517,6 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libcdfw \
     libcdfw_remote_api \
-    libcdsprpc \
     libcne \
     libcneapiclient \
     libcneoplookup \
@@ -669,7 +670,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
