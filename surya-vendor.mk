@@ -331,19 +331,14 @@ PRODUCT_PACKAGES += \
     audio.primary.sm6150 \
     sound_trigger.primary.sm6150 \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
-    libMpeg4SwEncoder \
     libOmxAacDec \
     libOmxAlacDec \
-    libOmxAlacDecSw \
     libOmxAmrDec \
     libOmxAmrwbplusDec \
     libOmxApeDec \
-    libOmxApeDecSw \
     libOmxDsdDec \
     libOmxEvrcDec \
     libOmxQcelp13Dec \
-    libOmxSwVdec \
-    libOmxSwVencMpeg4 \
     libOmxVpp \
     libOmxWmaDec \
     liba2dpoffload \
@@ -358,7 +353,6 @@ PRODUCT_PACKAGES += \
     libqcodec2 \
     libsmwrapper \
     libsurround_3mic_proc \
-    libswvdec \
     libvppclient \
     libshoebox \
     android.hardware.camera.provider@2.4-legacy \
