@@ -531,6 +531,7 @@ PRODUCT_PACKAGES += \
     libdrmfs \
     libdrmtime \
     libdsi_netctrl \
+    libflaw \
     libft2vendor \
     libgdtap \
     libgf_ca \
