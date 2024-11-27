@@ -355,7 +355,6 @@ PRODUCT_PACKAGES += \
     libdrc \
     libdsd2pcm \
     libmulawdec \
-    libpn553_fw \
     libqcodec2 \
     libsmwrapper \
     libsurround_3mic_proc \
@@ -581,6 +580,7 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libpn553_fw \
     libqcbor \
     libqcc_file_agent \
     libqcmaputils \
